@@ -53,10 +53,12 @@ MetaLand는 마인크래프트 기반의 가상 캠퍼스 창작물을 기반으
 > 해당되는 이슈가 없다면 #ISSUE는 생략할 수 있다.
 
 ## 2-3. 커밋 이름 컨벤션
-커밋도 브랜치와 마찬가지로 성격에 따라 구분하여 `feat`, `fix`, `refactot`, `docs` 를 붙인다.
+커밋도 브랜치와 마찬가지로 성격에 따라 구분하여 `feat`, `fix`, `refactot`, `docs` 등을 붙인다.
 
 * `feat: commit message`: 기능 추가 커밋
 * `fix: commit message`: 버그 수정 커밋
 * `refactor: commit message`: 리팩터링 커밋
 * `docs: commit message`: 문서 커밋
-
+* `style: commit message`: 코드 포맷팅, 세미콜론 누락, 코드 변경이 없는 경우
+* `test: commit message`: 테스트 코드, 리펙토링 테스트 코드 추가
+* `chore: commit message`: 빌드 업무 수정, 패키지 매니저 수정
