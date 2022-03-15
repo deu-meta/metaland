@@ -8,11 +8,14 @@ MetaLand is integrated metaverse platform, which includes minecraft server, auth
 * 마인크래프트 서버는 PaperMC를 사용합니다.
 * Dynmap과 LuckPerms는 마인크래프트 서버 플러그인이며, PaperMC에 의존적으로 로드됩니다.
 
-# MetaLand Auth
+# MetaLand Accounts
 MetaLand 플랫폼에서 통합 인증으로 사용되는 서버입니다.
 
 # MetaLand Plaza
 마인크래프트 메타버스 창작물을 기반으로 한 다양한 서비스가 제공되는 서버입니다.
+
+# MetaLand Web
+웹 인터페이스로 제공되며 MetaLand Accounts, MetaLand Plaza 기능을 사용할 수 있습니다.
 
 # 1. 프로젝트 개요
 
