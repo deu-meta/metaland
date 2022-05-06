@@ -80,3 +80,12 @@ MetaLand는 마인크래프트 기반의 가상 캠퍼스 창작물을 기반으
 * `style: commit message`: 코드 포맷팅, 세미콜론 누락, 코드 변경이 없는 경우
 * `test: commit message`: 테스트 코드, 리펙토링 테스트 코드 추가
 * `chore: commit message`: 빌드 업무 수정, 패키지 매니저 수정
+
+## 2-4. 환경변수 컨벤션
+환경변수는 모든 프로젝트에서 사용된다. 이에 따른 일관성있는 이름이 필요하며 아래와 같은 규칙으로 명명합니다.
+
+* 환경변수는 `UPPERCASE` 및 `_` 로 이름 짓는다.
+* 프로젝트에서 사용하는 모든 환경변수는 `MTL_` 을 접두사로 가진다.
+* 각 프로젝트의 이름을 사용한다. (예: `MTL_ACCOUNTS_`)
+
+> 예시) metaland-plaza 에서 사용하는 secret key 환경변수는 `MTL_PLAZA_SECRET_KEY`
